@@ -16,7 +16,7 @@ def led_display(digits: int = input('Enter any number of integers ')) -> None:
         '7': [l[3], l[1], l[1], l[1], l[1]],
         '8': [l[3], l[2], l[3], l[2], l[3]],
         '9': [l[3], l[2], l[3], l[1], l[3]],
-        '0': [l[3], l[2], l[2], l[2], l[3]],
+        '0': [l[3], l[2], l[2], l[2], l[3]]
     }
 
     digits = digits.strip()
