@@ -2,10 +2,12 @@ def detect_palindrome(
     text: str = input('Enter text: ')
 ) -> None:
     '''
-    takes a string and prints if the entered text is a palindrome or not, assumes two empty strings are not palindromes
+    takes a string and prints if the entered text is a palindrome or not. ignores capitalization and assumes two empty strings are not palindromes
     :param text: the string to test 
     '''
 
+    text = text.lower()
+    
     if text.isspace():
         print('This is not a palindrome')
         return
