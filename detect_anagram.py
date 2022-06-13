@@ -1,5 +1,5 @@
 def detect_anagram(
-    first_word: str = input('Enter your first word: ').lower()
+    first_word: str = input('Enter your first word: ').lower(),
     second_word: str = input('Enter your second word: ').lower()
 ):
     '''
@@ -33,3 +33,6 @@ def detect_anagram(
         print('This is an anagram')
     else:
         print('This is not an anagram')
+
+if __name__ == '__main__':
+    detect_anagram()
