@@ -1,6 +1,6 @@
 from os import strerror
 
-file_location = input('provide file path to read:') #'/Users/frederick.jones/Desktop/character_frequency.txt'
+file_location = input('provide file path to read:')
 
 char_dict = {}
 
